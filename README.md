@@ -99,7 +99,7 @@ Every open-source repository below features an active star badge linking directl
 
 ### 📦 Artifact, Vulnerability & Container Scanning
 
-| 🛠️ Project | 🌟 GitHub Stars | 🎯 Primary Focus | 📖 Description |
+| 🛠️ Project | 🌟 GitHub_Stars | 🎯 Primary Focus | 📖 Description |
 | :--- | :--- | :--- | :--- |
 | **[Harbor](https://github.com/goharbor/harbor)** | [![GitHub stars](https://img.shields.io/github/stars/goharbor/harbor?style=social&color=white)](https://github.com/goharbor/harbor/stargazers) | Trusted Artifact Registry | CNCF Graduated enterprise-class container image and OCI artifact registry with role-based access, vulnerability scanning, and cryptographic signing policy integration. |
 | **[Trivy](https://github.com/aquasecurity/trivy)** | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | All-in-One Security Scanner | Comprehensive open-source scanner covering container images, filesystems, Git repositories, Kubernetes configurations, IaC templates, SBOMs, and secret detection. |
@@ -112,7 +112,7 @@ Every open-source repository below features an active star badge linking directl
 
 ### 🔑 Secrets Detection & Git Protection
 
-| 🛠️ Project | 🌟 GitHub Stars | 🎯 Primary Focus | 📖 Description |
+| 🛠️ Project | 🌟 GitHub_Stars | 🎯 Primary Focus | 📖 Description |
 | :--- | :--- | :--- | :--- |
 | **[Gitleaks](https://github.com/gitleaks/gitleaks)** | [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers) | Fast Git Secret Scanner | High-performance, lightweight tool for detecting hardcoded secrets like passwords, API keys, tokens, and private keys in Git repositories and CI pipelines. |
 | **[TruffleHog](https://github.com/trufflesecurity/trufflehog)** | [![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers) | Secret Verification Engine | Searches Git history, S3 buckets, filesystems, and Docker images for leaked credentials with automated live secret-verification checks. |
@@ -124,7 +124,7 @@ Every open-source repository below features an active star badge linking directl
 
 ### 📋 SBOM Generation, Ingestion & Analysis
 
-| 🛠️ Project | 🌟 GitHub Stars | 🎯 Primary Focus | 📖 Description |
+| 🛠️ Project | 🌟 GitHub_Stars | 🎯 Primary Focus | 📖 Description |
 | :--- | :--- | :--- | :--- |
 | **[Syft](https://github.com/anchore/syft)** | [![GitHub stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers) | CLI SBOM Generation | Powerful CLI tool and Go library for generating comprehensive Software Bill of Materials (SBOMs) from container images, binaries, and filesystems in SPDX and CycloneDX formats. |
 | **[Dependency-Track](https://github.com/DependencyTrack/dependency-track)** | [![GitHub stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers) | Continuous SBOM Management | Intelligent component analysis platform that consumes CycloneDX/SPDX SBOMs to continuously monitor supply-chain risk and vulnerability intelligence. |
@@ -137,7 +137,7 @@ Every open-source repository below features an active star badge linking directl
 
 ### ✍️ Cryptographic Signing & SLSA Provenance
 
-| 🛠️ Project | 🌟 GitHub Stars | 🎯 Primary Focus | 📖 Description |
+| 🛠️ Project | 🌟 GitHub_Stars | 🎯 Primary Focus | 📖 Description |
 | :--- | :--- | :--- | :--- |
 | **[Cosign](https://github.com/sigstore/cosign)** | [![GitHub stars](https://img.shields.io/github/stars/sigstore/cosign?style=social&color=white)](https://github.com/sigstore/cosign/stargazers) | Container Signing & Verification | Sigstore's flagship tool for container signing, verification, keyless OIDC authentication, and storage of signatures and attestations in OCI registries. |
 | **[in-toto](https://github.com/in-toto/in-toto)** | [![GitHub stars](https://img.shields.io/github/stars/in-toto/in-toto?style=social&color=white)](https://github.com/in-toto/in-toto/stargazers) | Supply Chain Integrity Framework | End-to-end framework verifying the entire multi-step software development lifecycle by collecting cryptographically verifiable step metadata and attestations. |
@@ -149,7 +149,7 @@ Every open-source repository below features an active star badge linking directl
 
 ### 🔍 Malicious Package Analysis & Malware Defense
 
-| 🛠️ Project | 🌟 GitHub Stars | 🎯 Primary Focus | 📖 Description |
+| 🛠️ Project | 🌟 Github_Stars | 🎯 Primary Focus | 📖 Description |
 | :--- | :--- | :--- | :--- |
 | **[GuardDog](https://github.com/datadog/guarddog)** | [![GitHub stars](https://img.shields.io/github/stars/datadog/guarddog?style=social&color=white)](https://github.com/datadog/guarddog/stargazers) | Malicious Package Detection | CLI static analysis tool by Datadog using Semgrep heuristics to identify suspicious code, obfuscated payloads, and malicious behaviors in PyPI and npm packages. |
 | **[Socket CLI](https://github.com/SocketDev/socket-cli)** | [![GitHub stars](https://img.shields.io/github/stars/SocketDev/socket-cli?style=social&color=white)](https://github.com/SocketDev/socket-cli/stargazers) | CLI Package Risk Scanner | Open-source CLI wrapper for scanning dependency manifests, install scripts, network calls, and telemetry against malicious package indicators. |
@@ -160,7 +160,7 @@ Every open-source repository below features an active star badge linking directl
 
 ### 🕸️ Security Posture, Policy & Supply Chain Graphs
 
-| 🛠️ Project | 🌟 GitHub Stars | 🎯 Primary Focus | 📖 Description |
+| 🛠️ Project | 🌟 Github_Stars | 🎯 Primary Focus | 📖 Description |
 | :--- | :--- | :--- | :--- |
 | **[Kyverno](https://github.com/kyverno/kyverno)** | [![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers) | Kubernetes Supply Chain Policy | Kubernetes native policy engine validating, mutating, and generating configurations, including verifying Cosign image signatures and attestations at admission. |
 | **[OpenSSF Scorecard](https://github.com/ossf/scorecard)** | [![GitHub stars](https://img.shields.io/github/stars/ossf/scorecard?style=social&color=white)](https://github.com/ossf/scorecard/stargazers) | Upstream Security Health Scoring | Automated security posture assessment tool evaluating open-source projects for branch protection, code review, pinned dependencies, fuzzing, and CI practices. |
