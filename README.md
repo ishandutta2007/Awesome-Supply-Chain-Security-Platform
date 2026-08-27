@@ -36,6 +36,7 @@
 - [🧱 Open-Source Building Blocks Architecture](#-open-source-building-blocks-architecture)
 - [⚖️ Commercial SaaS vs. Open-Source Stack](#️-commercial-saas-vs-open-source-stack)
 - [🎯 Key Evaluation Capabilities Checklist](#-key-evaluation-capabilities-checklist)
+- [⭐ Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [📜 License & Disclaimer](#-license--disclaimer)
 
@@ -269,6 +270,12 @@ We welcome community contributions! To add or update a SaaS platform or Open-Sou
    - For **SaaS platforms**, ensure starting pricing, exact free tier / trial limits, and company scale are accurately provided.
    - For **Open-Source projects**, include the official star badge linking to `/stargazers` and place it in the sorted star order.
 4. Open a **Pull Request** with a brief summary of the changes.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Supply-Chain-Security-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Supply-Chain-Security-Platform&type=date&legend=top-left)
 
 ---
 
