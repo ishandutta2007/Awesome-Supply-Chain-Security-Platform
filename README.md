@@ -33,82 +33,35 @@ How to Contribute
 
 Disclaimer
 
-SaaS/Hosted Platforms
+## SaaS/Hosted Platforms
 
-Chainguard
-Software supply chain security platform focused on hardened, minimal, continuously maintained software artifacts, containers, libraries, OS packages, CI/CD actions, and verifiable provenance. Chainguard builds artifacts from source in hardened infrastructure and provides policy-controlled repositories.
-
-Socket
-Software supply chain security platform specializing in proactive detection of malicious and suspicious behavior in open-source packages, including dependency and package-level risks that may not yet have published CVEs.
-
-Phylum
-Software supply chain security platform focused on detecting malicious packages, dependency threats, suspicious package behavior, and emerging attacks across open-source ecosystems.
-
-Apiiro
-Application and software supply chain security platform providing code risk visibility, dependency analysis, security posture management, and prioritization across development environments.
-
-OX Security
-Software supply chain security platform providing application security posture management, risk correlation, attack-path analysis, and security visibility across the software development lifecycle.
-
-Snyk
-Developer security platform providing open-source dependency scanning, container security, IaC security, code security, license analysis, and automated remediation.
-
-Mend.io
-Application security platform providing software composition analysis, open-source license compliance, dependency management, supply-chain security, and automated remediation.
-
-Anchore
-Cloud-native software supply chain security platform focused on SBOMs, container security, vulnerability analysis, policy enforcement, and secure software delivery.
-
-JFrog Xray
-Continuous software composition and artifact analysis platform integrated with JFrog's software supply chain. Xray supports source and binary SCA across numerous package ecosystems, operating-system packages, containers, and other artifact types.
-
-Google Assured OSS
-Google Cloud service providing curated open-source packages with security metadata, SBOMs, vulnerability remediation, and signed provenance. Google currently describes the service as covering 2,500+ curated Java and Python packages.
-
-GitHub Advanced Security
-Developer security platform incorporating dependency graph analysis, Dependabot, secret scanning, code scanning, dependency review, and software supply-chain security capabilities.
-
-Black Duck
-Application security platform with extensive software composition analysis, open-source risk management, vulnerability identification, license compliance, and SBOM capabilities.
-
-Sonatype Nexus Lifecycle
-Software composition analysis and repository security platform providing dependency intelligence, policy enforcement, license compliance, and vulnerability management.
-
-Checkmarx
-Application security platform spanning SCA, SAST, IaC, API security, and software supply chain security.
-
-Endor Labs
-Application and software supply chain security platform focused on dependency intelligence, reachability analysis, dependency lifecycle management, and risk prioritization.
-
-FOSSA
-Open-source management and software composition analysis platform focused on dependency security, license compliance, SBOMs, and open-source governance.
-
-Cycode
-Application security posture management platform providing visibility and security controls across source code, CI/CD, identities, dependencies, and developer environments.
-
-ReversingLabs
-Software supply chain security and malware analysis platform specializing in binary analysis, malicious-package detection, artifact intelligence, and software integrity.
-
-Lineaje
-Software supply chain security platform providing software bill of materials management, software composition analysis, supply-chain intelligence, and risk management.
-
-RapidFort
-Cloud-native software supply chain security platform focused on securing, reducing, and continuously monitoring container images and their dependencies.
-
-ActiveState Platform
-Software supply chain platform focused on securing and managing language runtimes and open-source dependencies with controlled, reproducible builds.
-
-JFrog Artifactory
-Universal artifact repository providing a central control point for binaries, packages, containers, and software artifacts; frequently used together with Xray for supply-chain security.
-
-GitLab
-DevSecOps platform incorporating dependency scanning, SBOMs, container scanning, vulnerability management, package registries, and CI/CD security controls.
-
-Azure Defender for DevOps
-Microsoft cloud security capabilities integrating DevOps repositories and pipelines with vulnerability, dependency, secret, and security posture analysis.
-
-AWS CodeArtifact
-Managed artifact repository for storing and consuming software packages across supported language ecosystems, useful as a controlled distribution point within secure software supply chains.
+| Platform | Focus & Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **Chainguard** | Hardened, minimal, continuously maintained container images, OS packages, and verifiable SLSA provenance built from source in hardened infrastructure. | Starts at **$19,000/year** (Catalog tier for a team of 10 with contractual CVE remediation SLAs; custom per-image pricing also available). | **Catalog Starter (Free forever):** Access to 5 fixed container images for production use (no CVE SLA; requires business email). |
+| **Socket** | Proactive detection of malicious packages, install scripts, typosquatting, and supply chain threats across npm, PyPI, and Go ecosystems. | **Team plan:** Starts at **$25/developer/month** ($300/dev/year billed annually). | **Free tier forever:** 1,000 scans/month, 500 API calls/hour, up to 3 team members, 1 repo label. 100% free with unlimited scans for public open-source repos. |
+| **Phylum** | Automated software supply chain security analyzing open-source dependencies for malicious code, author reputation anomalies, and software risks. | **Enterprise plans:** Annual contracts typically starting at **$5,000–$10,000/year** based on developer count (acquired by Veracode). | **Free Trial only:** 14 to 30-day enterprise evaluation / Proof of Concept (POC) upon sales contact. (Community Edition sunset in Feb 2025). |
+| **Apiiro** | Application Security Posture Management (ASPM) and software supply chain security providing code-to-cloud risk graph, secrets, and reachability. | **Enterprise plans:** Starts at **$15,000–$25,000/year** via AWS Marketplace / direct contracts based on contributing developer count. | **Free Trial only:** 14-day free trial for Apiiro Guardian Agent on GitHub Marketplace; 14-day guided enterprise platform evaluation. |
+| **OX Security** | Pipeline security and ASPM offering pipeline attack-path analysis, Pipeline-Bill-of-Materials (PBOM), and software supply chain risk visibility. | **Enterprise plans:** Custom annual contracts starting at **$12,000–$20,000/year** depending on developer count / AWS Marketplace private offers. | **Free Trial only:** 14 to 30-day complimentary full-access trial / Proof of Concept upon demo request (includes full automated workflow features). |
+| **Snyk** | Developer security platform providing open-source dependency scanning (SCA), SAST (Snyk Code), container security, and IaC scanning. | **Team plan:** Starts at **$25/contributing developer/month** (minimum 5 developers = $125/month). | **Free tier forever:** 400 Open Source (SCA) tests/month, 100 Code (SAST) tests/month, 300 IaC tests/month, 100 Container tests/month. |
+| **Mend.io** | Application security platform providing SCA, open-source license compliance, automated dependency updates (Renovate), and supply chain defense. | **Enterprise plans:** Starts at **$12,000–$15,000/year** (or ~$250–$600/developer/year depending on product bundle). | **Mend Bolt (Free forever):** Free vulnerability scans for GitHub and Azure DevOps repos; free Renovate for OSS repos; 14-day free trial for enterprise platform. |
+| **Anchore** | Cloud-native software supply chain security platform focused on SBOM generation, container security, vulnerability analysis, and policy enforcement. | **Enterprise plans:** Base policy packages start at **$5,000/year** on AWS Marketplace; full platform contracts scale with container volume. | **Free Trial only:** 15-day free trial for Anchore Enterprise in AWS / cloud environments (in addition to open-source Syft and Grype tools). |
+| **JFrog Xray** | Universal artifact analysis and binary SCA platform integrated with JFrog Artifactory for deep vulnerability and license scanning across package ecosystems. | **Cloud Pro:** Starts at **$150/month** (promotional rates from $50/month) including 25 GB monthly consumption ($1.25/GB overage). | **Cloud Free tier forever:** 2 GB storage and 10 GB data transfer per month, with access to core artifact repository and Xray vulnerability scanning. |
+| **Google Assured OSS** | Curated open-source packages (Java, Python, Go) verified, built from source, vulnerability-checked, and signed with SLSA provenance by Google. | **Free for Standard tier;** **Premium tier:** Included with Security Command Center Premium (starts at **$0.0057/vCPU-hour** or 20% Assured Workloads fee). | **Free tier forever:** Access to 2,500+ curated OSS packages with security metadata and SBOMs at $0/month; new GCP accounts receive $300 free trial credits (90 days). |
+| **GitHub Advanced Security** | Developer security incorporating CodeQL code scanning, secret scanning with push protection, Dependabot, and supply chain dependency review. | **Secret Protection:** **$19/active committer/month**; **Code Security:** **$30/active committer/month** (or $49/committer/month bundle for GitHub Enterprise). | **Free tier forever for public repositories:** Unlimited secret scanning, push protection, CodeQL code scanning, and Dependabot alerts/PRs on GitHub.com. |
+| **Black Duck** | Application security platform with extensive software composition analysis (SCA), open-source risk management, license compliance, and SBOM capabilities. | **Enterprise plans:** Contracts typically start at **$10,000–$20,000/year** based on codebase volume and developer count. | **Free Trial only:** 30-day Proof of Concept (POC) / trial upon sales consultation and demo request. |
+| **Sonatype Nexus Lifecycle** | SCA and repository firewall policy enforcement powered by Nexus Intelligence to block malicious components and govern dependencies. | **Enterprise plans:** Typically starts at **$810/developer/year** for platform bundles; entry contracts start around ~$10,000/year. | **Free Trial only:** 14-day free trial for Sonatype Lifecycle platform (plus free open-source Nexus Repository OSS). |
+| **Checkmarx** | Application security platform (Checkmarx One) integrating SCA, supply chain security, SAST, API security, and container image analysis. | **Enterprise plans:** Starts at **$20,000–$30,000/year** depending on developer seats and selected modules. | **Checkmarx Developer Assist:** Free IDE plugin tier; **Checkmarx One:** 14 to 30-day guided evaluation Proof of Concept (POC) upon request. |
+| **Endor Labs** | Application and software supply chain security platform focused on dependency intelligence, reachability analysis, and risk prioritization. | **Enterprise plans:** Custom annual contracts starting at **$15,000/year** based on developer count via direct sales / AWS Marketplace. | **AURI for Developers (Free forever):** Local developer security scanning (SAST, SCA, secrets, malware) via CLI/MCP with no time limit or credit card required. |
+| **FOSSA** | Open-source management and SCA platform focused on dependency security, license compliance, SBOMs, and open-source governance. | **Business plan:** Starts at **$20/developer/month** (billed annually); Enterprise plans custom quoted. | **Free plan forever:** Up to 5 projects and 10 contributing developers with full open-source license & vulnerability scanning. |
+| **Cycode** | ASPM platform providing visibility and security controls across source code, CI/CD pipelines, hardcoded secrets, and developer environments. | **Enterprise plans:** Custom annual subscription starting at **$10,000–$15,000/year** on AWS/Azure Marketplace based on developer count. | **Free Trial only:** 14-day free trial upon request (full platform access including hardcoded secret detection and pipeline security). |
+| **ReversingLabs** | Binary analysis and software integrity platform (Spectra Assure) inspecting build outputs, containers, and packages for tampering and malware. | **Enterprise plans:** Spectra Assure contracts typically start at **$15,000–$25,000/year** based on artifact scan volume. | **Spectra Assure Community (Free forever):** Free web-based package risk search engine; **14-day free trial** for full Spectra Assure enterprise platform. |
+| **Lineaje** | Software supply chain security platform providing software bill of materials (SBOM) management, tamper detection, and multi-tier component risk analysis. | **Enterprise plans:** Private offer contracts on AWS Marketplace typically starting at **$12,000/year**; PAYG options available for SCA360. | **Free Trial only:** 14 to 30-day enterprise Proof of Concept (POC) trial license upon request. |
+| **RapidFort** | Cloud-native container attack surface reduction and hardening platform optimizing images, removing unused packages, and monitoring CVEs. | **Platform plans:** Starts at **$5,000/month** (or $75,000/year on AWS Marketplace with unlimited container coverage). | **Community Images (Free forever):** Free pre-hardened container images on GitHub; **30-day free trial license** for full SASM platform. |
+| **ActiveState Platform** | Secure language runtime builder and dependency manager for Python, Perl, and Tcl with automated CVE fixes and reproducible builds. | **SMB Tier:** Starts at **$1,200/language/year** (or legacy Team tiers from $84/user/month billed annually). | **Free tier forever:** 1 active runtime project for individual developers with automated build and dependency management. |
+| **JFrog Artifactory** | Universal artifact repository and binary management control point for packages, container images, Helm charts, and build metadata. | **Cloud Pro:** Starts at **$150/month** (or $50/month promotional rate) with 25 GB monthly consumption ($1.25/GB overage). | **Cloud Free tier forever:** 2 GB storage and 10 GB data transfer per month. |
+| **GitLab** | Integrated DevSecOps platform with dependency scanning, container scanning, secret detection, SBOM generation, and CI/CD security controls. | **Premium:** **$29/user/month**; **Ultimate** (full supply chain security & compliance): **$99/user/month** (billed annually). | **Free tier forever:** Up to 5 users per namespace, 400 CI/CD compute minutes/month, 10 GiB storage, and up to 3 top-level groups. |
+| **Azure Defender for DevOps** | Cloud security capability securing multi-pipeline environments (Azure DevOps, GitHub, GitLab) with code, secret, and posture analysis. | **Defender CSPM:** Integrated into Microsoft Defender for Cloud starting at pay-as-you-go resource rates (**$0.0057/vCPU-hour** / server rates). | **Foundational CSPM (Free forever):** Basic DevOps security posture recommendations at $0; **30-day free trial** for enhanced Defender for Cloud capabilities. |
+| **AWS CodeArtifact** | Managed artifact repository service for securely storing, publishing, and sharing software packages (npm, PyPI, Maven, NuGet, Cargo, Swift). | **Pay-as-you-go:** **$0.05 per GB-month** of storage and **$0.05 per 10,000 requests** (after free tier allowance). | **AWS Free Tier forever:** 2 GB storage/month and 100,000 requests/month included at no cost. |
 
 Open-Source GitHub Projects
 Supply Chain Integrity & Provenance
